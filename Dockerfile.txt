@@ -1,0 +1,3 @@
+FROM openjdk:8
+
+RUN ["javac","-jar","https://github.com/hemuaitha/addressbook.git"]
